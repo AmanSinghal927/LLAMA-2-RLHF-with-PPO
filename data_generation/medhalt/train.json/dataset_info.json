@@ -1,0 +1,86 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "reasoning_FCT",
+  "dataset_name": "med-halt",
+  "dataset_size": 10763594,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/MedHALT/Med-HALT@d1e8d04295742df7abc485062344fe328e141395/reasoning_FCT/reasoning_FCT.csv": {
+      "num_bytes": 9925083,
+      "checksum": null
+    }
+  },
+  "download_size": 9925083,
+  "features": {
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "dataset": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "options": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "correct_answer": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "correct_index": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "split_type": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "subject_name": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "topic_name": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "year": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "exam_name": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "student_answer": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "student_index": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 20688677,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 10763594,
+      "num_examples": 18866,
+      "dataset_name": "med-halt"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

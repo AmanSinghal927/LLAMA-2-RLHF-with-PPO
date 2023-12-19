@@ -1,0 +1,33 @@
+{
+  "citation": "@article{hendryckstest2021,\n      title={Measuring Massive Multitask Language Understanding},\n      author={Dan Hendrycks and Collin Burns and Steven Basart and Andy Zou and Mantas Mazeika and Dawn Song and Jacob Steinhardt},\n      journal={Proceedings of the International Conference on Learning Representations (ICLR)},\n      year={2021}\n    }",
+  "description": "This is a massive multitask test consisting of multiple-choice questions from various branches of knowledge, covering 57 tasks including elementary mathematics, US history, computer science, law, and more.",
+  "features": {
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "correct_index": {
+      "names": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "_type": "ClassLabel"
+    },
+    "subject_name": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "options": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "correct_answer": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "https://github.com/hendrycks/test",
+  "license": ""
+}
