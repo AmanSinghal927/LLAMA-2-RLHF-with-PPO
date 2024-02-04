@@ -1,3 +1,4 @@
+```
 #!/bin/bash
 
 #
@@ -25,3 +26,4 @@ module purge
 singularity exec --nv --bind /scratch/as14661 --overlay /scratch/as14661/as14661/jup_env/my_pytorch.ext3:ro /share/apps/images/cuda11.6.124-cudnn8.4.0.27-devel-ubuntu20.04.4.sif /bin/bash \
 
 -c "source /ext3/env.sh; cd /scratch/as14661/as14661/trl/examples/scripts; python reward_modeling.py"
+```
