@@ -19,7 +19,7 @@ singularity exec --nv --bind /scratch/as14661 --overlay /scratch/as14661/as14661
 - Models are trained on both zero-shot and few-shot LMQA configurations.
 - A maximum sequence length of 512 tokens is chosen based on data distribution observations.
 - Fine-tuning strategy employs Low Rank Adaptation (LoRa) with a rank setting of 8.
-- Initial learning rate is set between \(1 \times 10^{-5}\) and \(1 \times 10^{-6}\).
+- Initial learning rate is set between \(1 x 10^{-5}\) and \(1 x 10^{-6}\).
 - Gradient accumulation is used to enable larger effective batch sizes, ranging from 64 to 512.
 - Two learning rate schedulers are utilized: linear and cosine annealing.
 - Warmup period is set to 10% of the total number of training steps.
