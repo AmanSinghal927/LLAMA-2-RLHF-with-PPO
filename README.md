@@ -1,3 +1,7 @@
+# Chosing r_rejected
+
+![alt text](chosing_r_rejected.png)
+
 # Launching Code on HPC
 ```
 #!/bin/bash
