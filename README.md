@@ -16,7 +16,8 @@ singularity exec --nv --bind /scratch/as14661 --overlay /scratch/as14661/as14661
 -c "source /ext3/env.sh; cd /scratch/as14661/as14661/trl/examples/scripts; python reward_modeling.py"
 ```
 # Training Details
-- Models are trained on both zero-shot and few-shot LMQA configurations.
+- DeBERTA-v3 large model
+- Models are trained on both zero-shot and few-shot configurations.
 - A maximum sequence length of 512 tokens is chosen based on data distribution observations.
 - Fine-tuning strategy employs Low Rank Adaptation (LoRa) with a rank setting of 8.
 - Initial learning rate is set between \(1 x 10^{-5}\) and \(1 x 10^{-6}\).
@@ -24,8 +25,6 @@ singularity exec --nv --bind /scratch/as14661 --overlay /scratch/as14661/as14661
 - Two learning rate schedulers are utilized: linear and cosine annealing.
 - Warmup period is set to 10% of the total number of training steps.
 - Training is confined to a single epoch, following the methodology of Touvron et al., 2023.
-- Reports only the best results, with training loss curve shown for the DeBERTA-v3 large model.
-- Acknowledges expected noise in training loss curves across batches of the same epoch but notes an overall downward trend.
 - Modified loss function equation: `loss = -log(σ(r_chosen - r_rejected0 - r_rejected1 - r_rejected2))`, where `r_rejected0`, `r_rejected1`, and `r_rejected2` represent outputs for all three untruthful responses.
 
 
