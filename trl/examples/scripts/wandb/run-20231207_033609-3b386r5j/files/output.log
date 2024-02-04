@@ -1,0 +1,52 @@
+  0%|                                                                                                   | 0/431 [00:00<?, ?it/s]You're using a LlamaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+/home/as14661/.local/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2632: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`...
+Could not estimate the number of tokens of the input, floating-point operations will not be computed
+{'loss': 1.0647, 'learning_rate': 2e-07, 'epoch': 0.0}
+  0%|▏                                                                                        | 1/431 [00:26<3:06:35, 26.04s/it]
+
+  0%|▍                                                                                        | 2/431 [00:48<2:51:32, 23.99s/it]
+
+  1%|▌                                                                                        | 3/431 [01:11<2:49:07, 23.71s/it]
+
+  1%|▊                                                                                        | 4/431 [01:27<2:26:44, 20.62s/it]
+
+  1%|█                                                                                        | 5/431 [01:49<2:28:02, 20.85s/it]
+
+  1%|█▏                                                                                       | 6/431 [02:13<2:35:02, 21.89s/it]
+
+  2%|█▍                                                                                       | 7/431 [02:30<2:25:01, 20.52s/it]
+
+  2%|█▋                                                                                       | 8/431 [02:51<2:24:38, 20.52s/it]
+
+  2%|█▊                                                                                       | 9/431 [03:10<2:22:00, 20.19s/it]
+
+  2%|██                                                                                      | 10/431 [03:30<2:20:56, 20.09s/it]/home/as14661/.local/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2632: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+{'loss': 1.0489, 'learning_rate': 9.995106132599868e-07, 'epoch': 0.03}
+  3%|██▏                                                                                     | 11/431 [04:31<3:48:46, 32.68s/it]
+
+  3%|██▍                                                                                     | 12/431 [04:51<3:19:42, 28.60s/it]
+
+  3%|██▋                                                                                     | 13/431 [05:10<2:59:03, 25.70s/it]
+
+  3%|██▊                                                                                     | 14/431 [05:32<2:52:16, 24.79s/it]
+
+  3%|███                                                                                     | 15/431 [05:56<2:48:48, 24.35s/it]
+
+  4%|███▎                                                                                    | 16/431 [06:17<2:42:32, 23.50s/it]
+
+  4%|███▍                                                                                    | 17/431 [06:36<2:32:40, 22.13s/it]
+
+  4%|███▋                                                                                    | 18/431 [06:51<2:16:38, 19.85s/it]
+
+  4%|███▉                                                                                    | 19/431 [07:12<2:20:10, 20.41s/it]
+
+  5%|████                                                                                    | 20/431 [07:28<2:09:04, 18.84s/it]/home/as14661/.local/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2632: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+{'loss': 1.0343, 'learning_rate': 9.965233851025813e-07, 'epoch': 0.05}
+  5%|████▎                                                                                   | 21/431 [08:31<3:40:46, 32.31s/it]
+
+  5%|████▍                                                                                   | 22/431 [08:49<3:10:18, 27.92s/it]
+KeyboardInterrupt

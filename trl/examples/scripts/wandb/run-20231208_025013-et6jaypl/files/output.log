@@ -1,0 +1,42 @@
+  0%|                                                                                                   | 0/246 [00:00<?, ?it/s]You're using a DebertaV2TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+/home/as14661/.local/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2632: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+Could not estimate the number of tokens of the input, floating-point operations will not be computed
+  0%|▎                                                                                        | 1/246 [00:39<2:41:56, 39.66s/it]
+{'loss': 0.9152, 'learning_rate': 2.5000000000000004e-07, 'epoch': 0.0}
+
+  1%|▋                                                                                        | 2/246 [00:54<1:41:00, 24.84s/it]
+
+
+  2%|█▍                                                                                       | 4/246 [01:23<1:12:38, 18.01s/it]
+{'loss': 0.8594, 'learning_rate': 1.0000000000000002e-06, 'epoch': 0.02}
+
+  2%|█▊                                                                                       | 5/246 [01:38<1:07:25, 16.79s/it]
+
+  2%|██▏                                                                                      | 6/246 [01:52<1:03:57, 15.99s/it]
+
+
+  3%|██▉                                                                                      | 8/246 [02:21<1:00:05, 15.15s/it]
+
+  4%|███▎                                                                                       | 9/246 [02:35<58:52, 14.90s/it]
+{'loss': 0.8597, 'learning_rate': 2.25e-06, 'epoch': 0.04}
+
+  4%|███▋                                                                                      | 10/246 [02:50<58:40, 14.92s/it]/home/as14661/.local/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2632: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+{'loss': 0.9495, 'learning_rate': 2.7500000000000004e-06, 'epoch': 0.04}
+  4%|███▉                                                                                    | 11/246 [03:08<1:01:52, 15.80s/it]
+
+  5%|████▍                                                                                     | 12/246 [03:22<59:57, 15.37s/it]
+
+
+  6%|█████                                                                                     | 14/246 [03:51<57:44, 14.93s/it]
+{'loss': 0.8648, 'learning_rate': 3.5e-06, 'epoch': 0.06}
+
+  6%|█████▍                                                                                    | 15/246 [04:06<57:02, 14.82s/it]
+
+
+  7%|██████▏                                                                                   | 17/246 [04:35<56:02, 14.69s/it]
+{'loss': 0.7716, 'learning_rate': 4.25e-06, 'epoch': 0.07}
+
+  7%|██████▌                                                                                   | 18/246 [04:50<55:38, 14.64s/it]
+

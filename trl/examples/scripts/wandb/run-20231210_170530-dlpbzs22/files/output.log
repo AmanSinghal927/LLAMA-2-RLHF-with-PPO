@@ -1,0 +1,18 @@
+  0%|                                                                                                    | 0/61 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "reward_modeling_deberta.py", line 264, in <module>
+    trainer.train()
+  File "/home/as14661/.local/lib/python3.8/site-packages/transformers/trainer.py", line 1555, in train
+    return inner_training_loop(
+  File "/home/as14661/.local/lib/python3.8/site-packages/transformers/trainer.py", line 1838, in _inner_training_loop
+    for step, inputs in enumerate(epoch_iterator):
+  File "/scratch/as14661/cenv/lib/python3.8/site-packages/accelerate/data_loader.py", line 448, in __iter__
+    current_batch = next(dataloader_iter)
+  File "/home/as14661/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/home/as14661/.local/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 674, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/as14661/.local/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 54, in fetch
+    return self.collate_fn(data)
+  File "/scratch/as14661/cenv/lib/python3.8/site-packages/trl/trainer/utils.py", line 227, in __call__
+    raise ValueError(
+ValueError: The features should include `input_ids_chosen`, `attention_mask_chosen`, `input_ids_rejected` and `attention_mask_rejected`

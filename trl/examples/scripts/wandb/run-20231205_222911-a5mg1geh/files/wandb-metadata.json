@@ -1,0 +1,292 @@
+{
+    "os": "Linux-4.18.0-372.26.1.el8_6.x86_64-x86_64-with-glibc2.17",
+    "python": "3.8.18",
+    "heartbeatAt": "2023-12-06T03:29:11.813288",
+    "startedAt": "2023-12-06T03:29:11.376322",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "reward_modeling_deberta.py",
+    "codePathLocal": "reward_modeling_deberta.py",
+    "codePath": "examples/scripts/reward_modeling_deberta.py",
+    "git": {
+        "remote": "https://github.com/huggingface/trl.git",
+        "commit": "55d7c952c796345d9fa520e692f7760372b14b43"
+    },
+    "email": null,
+    "root": "/scratch/as14661/trl",
+    "host": "gv007.hpc.nyu.edu",
+    "username": "as14661",
+    "executable": "/scratch/as14661/cenv/bin/python",
+    "cpu_count": 48,
+    "cpu_count_logical": 48,
+    "cpu_freq": {
+        "current": 2885.4906666666666,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1240.659,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3862.893,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2900.0,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 78.08685302734375,
+            "used": 25.52804946899414
+        }
+    },
+    "gpu": "Tesla V100-PCIE-32GB",
+    "gpu_count": 2,
+    "gpu_devices": [
+        {
+            "name": "Tesla V100-PCIE-32GB",
+            "memory_total": 34359738368
+        },
+        {
+            "name": "Tesla V100-PCIE-32GB",
+            "memory_total": 34359738368
+        }
+    ],
+    "memory": {
+        "total": 377.3243637084961
+    }
+}

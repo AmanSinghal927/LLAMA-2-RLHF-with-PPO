@@ -1,0 +1,78 @@
+  0%|                                                                                                    | 0/61 [00:00<?, ?it/s]You're using a DebertaV2TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+/home/as14661/.local/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2632: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+Could not estimate the number of tokens of the input, floating-point operations will not be computed
+Traceback (most recent call last):
+  File "reward_modeling_deberta.py", line 264, in <module>
+    trainer.train()
+  File "/home/as14661/.local/lib/python3.8/site-packages/transformers/trainer.py", line 1555, in train
+    return inner_training_loop(
+  File "/home/as14661/.local/lib/python3.8/site-packages/transformers/trainer.py", line 1860, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/as14661/.local/lib/python3.8/site-packages/transformers/trainer.py", line 2725, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/scratch/as14661/cenv/lib/python3.8/site-packages/trl/trainer/reward_trainer.py", line 487, in compute_loss
+    rewards_rejected2 = model(
+  File "/home/as14661/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/as14661/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/as14661/.local/lib/python3.8/site-packages/torch/nn/parallel/data_parallel.py", line 185, in forward
+    outputs = self.parallel_apply(replicas, inputs, module_kwargs)
+  File "/home/as14661/.local/lib/python3.8/site-packages/torch/nn/parallel/data_parallel.py", line 200, in parallel_apply
+    return parallel_apply(replicas, inputs, kwargs, self.device_ids[:len(replicas)])
+  File "/home/as14661/.local/lib/python3.8/site-packages/torch/nn/parallel/parallel_apply.py", line 110, in parallel_apply
+    output.reraise()
+  File "/home/as14661/.local/lib/python3.8/site-packages/torch/_utils.py", line 694, in reraise
+    raise exception
+torch.cuda.OutOfMemoryError: Caught OutOfMemoryError in replica 1 on device 1.
+Original Traceback (most recent call last):
+  File "/home/as14661/.local/lib/python3.8/site-packages/torch/nn/parallel/parallel_apply.py", line 85, in _worker
+    output = module(*input, **kwargs)
+  File "/home/as14661/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/as14661/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/scratch/as14661/cenv/lib/python3.8/site-packages/peft/peft_model.py", line 816, in forward
+    return self.base_model(
+  File "/home/as14661/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/as14661/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/scratch/as14661/cenv/lib/python3.8/site-packages/peft/tuners/tuners_utils.py", line 107, in forward
+    return self.model.forward(*args, **kwargs)
+  File "/home/as14661/.local/lib/python3.8/site-packages/transformers/models/deberta_v2/modeling_deberta_v2.py", line 1304, in forward
+    outputs = self.deberta(
+  File "/home/as14661/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/as14661/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/as14661/.local/lib/python3.8/site-packages/transformers/models/deberta_v2/modeling_deberta_v2.py", line 1074, in forward
+    encoder_outputs = self.encoder(
+  File "/home/as14661/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/as14661/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/as14661/.local/lib/python3.8/site-packages/transformers/models/deberta_v2/modeling_deberta_v2.py", line 514, in forward
+    output_states = layer_module(
+  File "/home/as14661/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/as14661/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/as14661/.local/lib/python3.8/site-packages/transformers/models/deberta_v2/modeling_deberta_v2.py", line 362, in forward
+    attention_output = self.attention(
+  File "/home/as14661/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/as14661/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/as14661/.local/lib/python3.8/site-packages/transformers/models/deberta_v2/modeling_deberta_v2.py", line 293, in forward
+    self_output = self.self(
+  File "/home/as14661/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/as14661/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/as14661/.local/lib/python3.8/site-packages/transformers/models/deberta_v2/modeling_deberta_v2.py", line 721, in forward
+    rel_att = self.disentangled_attention_bias(
+  File "/home/as14661/.local/lib/python3.8/site-packages/transformers/models/deberta_v2/modeling_deberta_v2.py", line 799, in disentangled_attention_bias
+    c2p_att = torch.gather(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 42.00 MiB. GPU 1 has a total capacty of 31.74 GiB of which 33.12 MiB is free. Including non-PyTorch memory, this process has 31.70 GiB memory in use. Of the allocated memory 30.87 GiB is allocated by PyTorch, and 399.07 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

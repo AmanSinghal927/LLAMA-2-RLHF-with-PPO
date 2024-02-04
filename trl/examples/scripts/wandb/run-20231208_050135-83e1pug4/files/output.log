@@ -1,0 +1,12 @@
+  0%|                                                                                                    | 0/15 [00:00<?, ?it/s]You're using a DebertaV2TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+/home/as14661/.local/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2632: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+Could not estimate the number of tokens of the input, floating-point operations will not be computed
+{'loss': 0.8586, 'learning_rate': 5e-06, 'epoch': 0.06}
+  7%|██████                                                                                     | 1/15 [02:24<33:37, 144.13s/it]/home/as14661/.local/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2632: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+{'loss': 0.8459, 'learning_rate': 1e-05, 'epoch': 0.13}
+ 13%|████████████▏                                                                              | 2/15 [04:49<31:24, 144.99s/it]/home/as14661/.local/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2632: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+{'loss': 0.8547, 'learning_rate': 9.230769230769232e-06, 'epoch': 0.19}
+ 20%|██████████████████▏                                                                        | 3/15 [07:11<28:42, 143.54s/it]/home/as14661/.local/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2632: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.

@@ -1,0 +1,21 @@
+  0%|                                                                                                    | 0/53 [00:00<?, ?it/s]You're using a LlamaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+/home/as14661/.local/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2632: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+Traceback (most recent call last):
+  File "reward_modeling_7b.py", line 260, in <module>
+    trainer.train()
+  File "/home/as14661/.local/lib/python3.8/site-packages/transformers/trainer.py", line 1555, in train
+    return inner_training_loop(
+  File "/home/as14661/.local/lib/python3.8/site-packages/transformers/trainer.py", line 1860, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/as14661/.local/lib/python3.8/site-packages/transformers/trainer.py", line 2725, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/scratch/as14661/cenv/lib/python3.8/site-packages/trl/trainer/reward_trainer.py", line 226, in compute_loss
+    rewards_chosen = model(
+  File "/home/as14661/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/as14661/.local/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/as14661/.local/lib/python3.8/site-packages/torch/nn/parallel/data_parallel.py", line 171, in forward
+    raise RuntimeError("module must have its parameters and buffers "
+RuntimeError: module must have its parameters and buffers on device cuda:0 (device_ids[0]) but found one of them on device: cpu

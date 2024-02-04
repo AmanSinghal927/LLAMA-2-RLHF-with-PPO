@@ -1,0 +1,41 @@
+  0%|                                                                                                   | 0/431 [00:00<?, ?it/s]You're using a LlamaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+/home/as14661/.local/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2632: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`...
+Could not estimate the number of tokens of the input, floating-point operations will not be computed
+  0%|▏                                                                                        | 1/431 [00:19<2:21:27, 19.74s/it]
+{'loss': 1.0647, 'learning_rate': 2e-07, 'epoch': 0.0}
+
+
+  1%|▌                                                                                        | 3/431 [01:06<2:40:24, 22.49s/it]
+
+  1%|▊                                                                                        | 4/431 [01:22<2:21:29, 19.88s/it]
+{'loss': 1.1573, 'learning_rate': 8e-07, 'epoch': 0.01}
+
+  1%|█                                                                                        | 5/431 [01:43<2:24:37, 20.37s/it]
+
+  1%|█▏                                                                                       | 6/431 [02:07<2:32:44, 21.56s/it]
+
+  2%|█▍                                                                                       | 7/431 [02:24<2:23:21, 20.29s/it]
+
+  2%|█▋                                                                                       | 8/431 [02:45<2:23:25, 20.34s/it]
+
+  2%|█▊                                                                                       | 9/431 [03:04<2:21:06, 20.06s/it]
+
+  2%|██                                                                                      | 10/431 [03:24<2:20:13, 19.98s/it]/home/as14661/.local/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2632: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+{'loss': 1.0489, 'learning_rate': 9.995106132599868e-07, 'epoch': 0.03}
+  3%|██▏                                                                                     | 11/431 [04:25<3:46:56, 32.42s/it]
+
+  3%|██▍                                                                                     | 12/431 [04:44<3:18:25, 28.41s/it]
+
+
+  3%|██▊                                                                                     | 14/431 [05:26<2:51:38, 24.70s/it]
+{'loss': 0.97, 'learning_rate': 9.988991043912856e-07, 'epoch': 0.03}
+
+  3%|███                                                                                     | 15/431 [05:49<2:48:23, 24.29s/it]
+
+  4%|███▎                                                                                    | 16/431 [06:10<2:42:12, 23.45s/it]
+
+  4%|███▍                                                                                    | 17/431 [06:29<2:32:27, 22.10s/it]
+KeyboardInterrupt

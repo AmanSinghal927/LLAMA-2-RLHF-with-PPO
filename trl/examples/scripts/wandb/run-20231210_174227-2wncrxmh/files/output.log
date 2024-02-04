@@ -1,0 +1,69 @@
+  0%|                                                                                                   | 0/123 [00:00<?, ?it/s]You're using a DebertaV2TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+/home/as14661/.local/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2632: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+Could not estimate the number of tokens of the input, floating-point operations will not be computed
+{'loss': 1.4291, 'learning_rate': 4.047558816089046e-08, 'epoch': 0.01}
+  1%|▋                                                                                        | 1/123 [01:03<2:10:03, 63.96s/it]/home/as14661/.local/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2632: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+{'loss': 1.651, 'learning_rate': 8.095117632178092e-08, 'epoch': 0.02}
+  2%|█▍                                                                                       | 2/123 [02:02<2:03:04, 61.03s/it]/home/as14661/.local/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2632: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+{'loss': 1.4659, 'learning_rate': 1.2142676448267139e-07, 'epoch': 0.02}
+  2%|██▏                                                                                      | 3/123 [03:00<1:59:09, 59.58s/it]/home/as14661/.local/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2632: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+{'loss': 1.5982, 'learning_rate': 1.6190235264356184e-07, 'epoch': 0.03}
+  3%|██▉                                                                                      | 4/123 [03:57<1:56:14, 58.61s/it]/home/as14661/.local/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2632: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+  4%|███▌                                                                                     | 5/123 [04:55<1:54:44, 58.34s/it]
+  4%|███▌                                                                                     | 5/123 [04:55<1:54:44, 58.34s/it]/home/as14661/.local/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2632: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+{'loss': 1.4277, 'learning_rate': 2.4285352896534277e-07, 'epoch': 0.05}
+  5%|████▎                                                                                    | 6/123 [05:53<1:53:20, 58.12s/it]/home/as14661/.local/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2632: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+{'loss': 1.63, 'learning_rate': 2.833291171262333e-07, 'epoch': 0.06}
+  6%|█████                                                                                    | 7/123 [06:50<1:51:58, 57.92s/it]/home/as14661/.local/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2632: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+{'loss': 1.6158, 'learning_rate': 3.238047052871237e-07, 'epoch': 0.06}
+  7%|█████▊                                                                                   | 8/123 [07:49<1:51:04, 57.95s/it]/home/as14661/.local/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2632: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+{'loss': 1.6888, 'learning_rate': 3.642802934480142e-07, 'epoch': 0.07}
+  7%|██████▌                                                                                  | 9/123 [08:46<1:50:01, 57.91s/it]/home/as14661/.local/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2632: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+{'loss': 1.6103, 'learning_rate': 4.0475588160890464e-07, 'epoch': 0.08}
+  8%|███████▏                                                                                | 10/123 [09:44<1:48:49, 57.78s/it]/home/as14661/.local/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2632: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+{'loss': 1.5959, 'learning_rate': 4.4523146976979514e-07, 'epoch': 0.09}
+  9%|███████▊                                                                                | 11/123 [10:42<1:47:56, 57.83s/it]/home/as14661/.local/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2632: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+{'loss': 1.6486, 'learning_rate': 4.857070579306855e-07, 'epoch': 0.1}
+ 10%|████████▌                                                                               | 12/123 [11:39<1:46:52, 57.77s/it]/home/as14661/.local/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2632: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+{'loss': 1.8107, 'learning_rate': 5.261826460915761e-07, 'epoch': 0.11}
+ 11%|█████████▎                                                                              | 13/123 [12:38<1:46:18, 57.99s/it]/home/as14661/.local/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2632: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+{'loss': 1.6713, 'learning_rate': 5.666582342524666e-07, 'epoch': 0.11}
+ 11%|██████████                                                                              | 14/123 [13:36<1:45:10, 57.89s/it]/home/as14661/.local/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2632: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+{'loss': 1.542, 'learning_rate': 6.07133822413357e-07, 'epoch': 0.12}
+ 12%|██████████▋                                                                             | 15/123 [14:34<1:44:15, 57.92s/it]/home/as14661/.local/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2632: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+{'loss': 1.6452, 'learning_rate': 6.476094105742474e-07, 'epoch': 0.13}
+ 13%|███████████▍                                                                            | 16/123 [15:32<1:43:36, 58.10s/it]/home/as14661/.local/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2632: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+ 14%|████████████▏                                                                           | 17/123 [16:31<1:42:51, 58.22s/it]/home/as14661/.local/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2632: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+{'loss': 1.7405, 'learning_rate': 6.880849987351379e-07, 'epoch': 0.14}
+{'loss': 1.8592, 'learning_rate': 7.285605868960284e-07, 'epoch': 0.15}
+ 15%|████████████▉                                                                           | 18/123 [17:28<1:41:35, 58.05s/it]/home/as14661/.local/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2632: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+{'loss': 1.7747, 'learning_rate': 7.690361750569189e-07, 'epoch': 0.15}
+ 15%|█████████████▌                                                                          | 19/123 [18:26<1:40:28, 57.97s/it]/home/as14661/.local/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2632: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+ 16%|██████████████▎                                                                         | 20/123 [19:23<1:38:55, 57.62s/it]
+ 16%|██████████████▎                                                                         | 20/123 [19:23<1:38:55, 57.62s/it]/home/as14661/.local/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2632: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+ 17%|███████████████                                                                         | 21/123 [20:23<1:39:07, 58.31s/it]/home/as14661/.local/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2632: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
+  warnings.warn(
+{'loss': 1.8626, 'learning_rate': 8.499873513786998e-07, 'epoch': 0.17}
+{'loss': 1.686, 'learning_rate': 8.904629395395903e-07, 'epoch': 0.18}
+ 18%|███████████████▋                                                                        | 22/123 [21:22<1:38:31, 58.53s/it]/home/as14661/.local/lib/python3.8/site-packages/transformers/tokenization_utils_base.py:2632: UserWarning: `max_length` is ignored when `padding`=`True` and there is no truncation strategy. To pad to max length, use `padding='max_length'`.
